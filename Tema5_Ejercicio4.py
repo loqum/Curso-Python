@@ -1,14 +1,13 @@
-def run():
-  x = 17
-  y = 19
+x = 17
+y = 19
 
-  x = 12 if (x == y) else 15
+x = 12 if (x == y) else 15
 
-  print("x: ", x, "\ny: ", y)
+print("x: ", x, "\ny: ", y)
 
-  if y < x:
+if (y < x):
     y = 12
-  else:
+else:
     x = 5
- 
-  print("\nx: ", x, "\ny: ", y)
+
+print("\nx: ", x, "\ny: ", y)
