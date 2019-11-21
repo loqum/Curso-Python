@@ -1,3 +1,1 @@
-import Tema6_Ejercicio4
-import Tema6_Ejercicio5
-
+import Tema7_Ejercicio1
