@@ -5,3 +5,6 @@ def concatVar(*cadenas):
     cadena += i
   
   return(cadena)
+
+print(concatVar("Ruben", " Fernandez"))
+print(concatVar("Ruben", " Fernandez", " Moreno"))
