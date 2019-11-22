@@ -4,10 +4,10 @@ class Persona:
     self.primer_apellido = primer_apellido
     self.segundo_apellido = segundo_apellido
 
-  def print_nombre(self, nombre):
+  def mostrar_nombre(self):
     print(self.nombre)
   
-  def print_apellidos(self, primer_apellido, segundo_apellido):
+  def mostrar_apellidos(self):
     print(self.primer_apellido)
     print(self.segundo_apellido)
   
@@ -29,9 +29,6 @@ class Empleado(Persona):
   
   def mostrar_numero_empleado(self):
     print(self.numero_empleado)
-
-  def __str__(self):
-    return "Nombre: " + self.nombre + ", \nApellidos: " + self.primer_apellido + " " + self.segundo_apellido + " \nNumero Empleado: " , self.numero_empleado
 
 class Cliente(Persona):
   numero_clientes = 0
